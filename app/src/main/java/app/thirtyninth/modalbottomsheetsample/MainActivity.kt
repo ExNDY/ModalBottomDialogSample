@@ -75,7 +75,6 @@ class MainActivity : ComponentActivity() {
 
                 // A surface container using the 'background' color from the theme
                 Scaffold(
-                    modifier = Modifier.imePadding(),
                     contentWindowInsets = WindowInsets(0, 0, 0, 0)
                 ) { localPadding ->
                     Box(
